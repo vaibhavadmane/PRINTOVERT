@@ -7,11 +7,10 @@ function App() {
   return (
     <> 
     <div className='flex'>
-   <Header />
- 
+    <Header />
     <Dashboard />
     </div>
- 
+    
 
     </>
   )
