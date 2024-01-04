@@ -1,0 +1,11 @@
+{ "type": "module",
+  "name": "e-commerce-backend",
+  "version": "1.0.0",
+  "description": "A backend for e-commerce plateform",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/server.js"
+  },
+  "author": "Mayank sahu",
+  "license": "ISC"
+}
