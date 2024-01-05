@@ -15,7 +15,8 @@ import Dashboard from './components/Dashboard/Dashboard.jsx'
 import Editprofile from './components/Editprofie/Editprofile.jsx'
 import Login from './components/login/Login.jsx'
 import Createorder from './components/createorders/Createorder.jsx'
-const router = createBrowserRouter(
+import Needhelp from './components/needhelp/Needhelp.jsx'
+const router = createBrowserRouter( 
   createRoutesFromElements(
       <Route path = '/' element = {<Layout/>}>
       <Route path = '' element = {<Dashboard/>}/>
@@ -26,6 +27,7 @@ const router = createBrowserRouter(
       <Route path = '/tickets' element = {<Ticket/>}/>
       <Route path = '/wallet' element = {<Wallet/>}/>
       <Route path = '/edit-profile' element = {<Editprofile/>}/>
+      <Route path = '/need-help' element = {<Needhelp/>}/>
       <Route path = '/login' element = {<Login/>}/>
       </Route>
   )
