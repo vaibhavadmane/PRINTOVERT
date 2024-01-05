@@ -13,13 +13,13 @@ import  Designproduct  from './components/Design product/Designproduct.jsx'
 import TShirtDesigner from './components/Tshirtdesigner/TShirtDesigner.jsx'
 import Dashboard from './components/Dashboard/Dashboard.jsx'
 import Editprofile from './components/Editprofie/Editprofile.jsx'
-
+// import Canva from './components/canvas/Canva.jsx'
 const router = createBrowserRouter(
   createRoutesFromElements(
       <Route path = '/' element = {<Layout/>}>
       <Route path = '' element = {<Dashboard/>}/>
       <Route path = '/design-library' element = {<Designlibrary/>}/>
-      <Route path = '/design-product' element = {<Designproduct/>}/>
+      {/* <Route path = '/design-product' element = {<Canva/>}/> */}
       <Route path = '/create-orders' element = {<TShirtDesigner/>}/>
       <Route path = '/orders' element = {<Orders/>}/>
       <Route path = '/tickets' element = {<Ticket/>}/>
