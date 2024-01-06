@@ -5,7 +5,7 @@ function Wallet() {
     
       <div className='bg-blue-200 w-full h-180 '>
         <div className='flex'>
-      <h1 className=' font-bold mt-8 ml-7  text-blufont-cerebriSans text-3xle-900 co text-4xl'>Wallet</h1>
+      <h1 className=' font-bold mt-8 ml-7  text-blufont-cerebriSans text-blue-900 co text-5xl'>Wallet</h1>
       <button className='h-8 w-40 rounded-3xl text-white mt-10 ml-6 border bg-blue-700  hover:bg-blue-500 hover:text-white'>Add Balance</button>
       
       </div>

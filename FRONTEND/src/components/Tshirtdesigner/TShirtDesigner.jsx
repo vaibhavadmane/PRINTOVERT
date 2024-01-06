@@ -110,14 +110,17 @@ const TShirtDesigner = () => {
     
           
   return (
-    <div class=" bg-blue-200 h-[100vh] w-[98%]">
-      <div id="tshirt-div" className="relative  h-548 ml-28 mt-28" >
-        <img className=''
+    <div className=" bg-blue-200 h-[100vh] w-[98%]">
+      <p className='text-5xl ml-20 mt-10 font-bold text-blue-900  '>Create Order</p>
+      <div id="tshirt-div" className="relative  h-548 ml-28 mt-10 bg-blue-200" >
+      <div class="bg-blue-200">
+      <img className='bg-white'
           id="tshirt-backgroundpicture" 
           src="https://ourcodeworld.com/public-media/gallery/gallery-5d5afd3f1c7d6.png"
         />
-        <div className="absolute top-14 left-[120px] z-10 w-200 h-[450px] border-2 border-red-800 border-solid">
-          <div className="relative w-200 h-400">
+      </div>
+        <div className="absolute top-14 left-[120px] z-10 w-200 h-[450px] border-2 border-red-800 border-solid  ">
+          <div className="relative w-200 h-400 ">
             <canvas id="tshirt-canvas" width="200"  height="450" ></canvas>
           </div>
         </div>
